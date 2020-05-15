@@ -43,7 +43,7 @@ const App = () => {
  return (
    <div className="main">
       <h2 className="remove-all" onClick={removeAll}>&#x0233D;</h2>
-      <h2 className="current-day">{moment().format('l')}</h2>
+      <h3 className="current-day">{moment().format('l')}</h3>
       <ListForm className="list-form" onSubmit={onFormSubmit} />
       {list.length === 0 && <p className="red-alert">Please add a Todo...</p>}
       {list.map((soloItem) => (<ListItem className="list-item" key={soloItem} todo={soloItem} remove={remove} />))}
