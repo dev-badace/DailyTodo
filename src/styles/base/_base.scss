@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  font-size: 1rem;
+}
+
+button, .remove-all {
+  cursor: pointer;
+}
+
+.remove-all {
+  font-size: 3rem;
+  color: red;
+  display: inline-block;
+  position: absolute;
+  top:1rem;
+  right: 1rem;
+}
+
+.current-day {
+  font-size: 2rem ;
+  color: blue;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.main {
+  width: 80%;
+  margin: 10rem auto 2.5rem auto;
+}
+
+.red-alert {
+ margin: 1.5rem;
+ font-size: 2rem;
+ color:#dc3545;
+}

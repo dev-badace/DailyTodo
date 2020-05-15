@@ -1,0 +1,20 @@
+.list__item{
+  display: flex;
+  width: 60vw;
+  font-size: 2rem;
+  margin: 5rem 0;
+  padding-left: 1rem ;
+  
+  &--heading {
+    font-weight: 380;
+    flex-basis: 60%;
+    flex-grow: 1;
+  }
+
+  &--button-remove {
+    background-color: #dc3545;
+    flex-basis: 10%;
+    border: none;
+    outline: none;
+  }
+}
