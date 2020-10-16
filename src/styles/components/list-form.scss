@@ -1,11 +1,11 @@
 .list__form {
   display: flex;
-  width: 60vw;
+  justify-content: space-between;
+  width: 100%;
   &--input {
     font-family: inherit;
     font-size: 2rem;
     padding: 1rem 2rem;
-    flex-basis: 60%;
     flex-grow: 1;
     &::placeholder {
       color: lightgrey;

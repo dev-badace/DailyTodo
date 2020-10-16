@@ -11,28 +11,31 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 body {
   font-size: 1rem;
 }
 
-button, .remove-all {
+button,
+.remove-all {
   cursor: pointer;
 }
 
 .remove-all {
-  font-size: 3rem;
-  color: red;
+  font-size: 6rem;
+  font-weight: 300;
+  color: rgb(235, 61, 61);
   display: inline-block;
   position: absolute;
-  top:1rem;
+  outline: noen;
+  top: -1rem;
   right: 1rem;
 }
 
 .current-day {
-  font-size: 2rem ;
+  font-size: 2rem;
   color: blue;
   font-weight: 380;
   position: absolute;
@@ -46,7 +49,7 @@ button, .remove-all {
 }
 
 .red-alert {
- margin: 1.5rem;
- font-size: 2rem;
- color:#dc3545;
+  margin: 1.5rem;
+  font-size: 2rem;
+  color: #dc3545;
 }
